@@ -1,101 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Olalere Abdulazeez Portfolio">
-    <meta name="author" content="Abdulazeez">
-    <title>Abdulazeez | Olalere</title>
+  <head>
+    <title>Abdulazeez Olalere | Frontend Engineer Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="I am Abdulazeez Olalere, a passionate Frontend Engineer, showcasing my work and projects in web development. Explore my portfolio to see my skills and experience."
+    />
+    <meta
+      name="keywords"
+      content="Abdulazeez Olalere, Frontend Engineer, Frontend Developer, Web Development, Portfolio"
+    />
+
+    <meta
+      property="og:title"
+      content="Abdulazeez Olalere | Frontend Engineer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="I am Abdulazeez Olalere, a passionate Frontend Engineer, showcasing my work and projects in web development. Explore my portfolio to see my skills and experience."
+    />
+    <meta property="og:type" content="website" />
+    <!-- <meta property="og:image" content="https://res.cloudinary.com/joovlin-dashboard/image/upload/v1690289890/portfolio/android-chrome-512x512_nezj9g.png"> -->
+    <meta property="og:url" content="https://olalere-portfolio.vercel.app" />
+
+    <!-- <meta name="twitter:card" content="https://res.cloudinary.com/joovlin-dashboard/image/upload/v1690289890/portfolio/android-chrome-512x512_nezj9g.png"> -->
+    <meta
+      name="twitter:title"
+      content="Abdulazeez Olalere | Frontend Engineer Portfolio"
+    />
+    <meta
+      name="twitter:description"
+      content="I am Abdulazeez Olalere, a passionate Frontend Engineer, showcasing my work and projects in web development. Explore my portfolio to see my skills and experience."
+    />
+    <!-- <meta name="twitter:image" content="https://res.cloudinary.com/joovlin-dashboard/image/upload/v1690289890/portfolio/android-chrome-512x512_nezj9g.png"> -->
+
+    <meta name="author" content="Abdulazeez" />
     <!-- font icons -->
-    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      rel="stylesheet"
+      href="assets/vendors/themify-icons/css/themify-icons.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap + Steller main styles -->
-	<link rel="stylesheet" href="assets/css/steller.css">
-    <link rel="icon" href="assets/img/favicon.ico">
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-
+    <link rel="stylesheet" href="assets/css/steller.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light  fixed-top bg-black" data-spy="affix" data-offset-top="0">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <div class="d-flex justify-content-center font-weight-bold">
-                    <div class="text-white">
-                        ABDUL
-                    </div>
-                    <div style="color: #ff7a57;">
-                            AZEEZ
-                    </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top bg-black"
+      data-spy="affix"
+      data-offset-top="0"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <div
+            class="d-flex flex-column justify-content-center font-weight-bold"
+          >
+            <div style="color: #ff7a57">ABDUL</div>
+            <div class="text-white">AZEEZ</div>
+          </div>
+          <!-- <img src="assets/imgs/logo.svg" alt=""> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="bx bx-menu" style="color: #ff7a57"></i>
+        </button>
 
-                </div>
-                <!-- <img src="assets/imgs/logo.svg" alt=""> -->
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <i class="bx bx-menu" style="color: #ff7a57;"></i>
-            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Projects</a>
+            </li>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Skills</a>
-                    </li>                   
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testmonial">Recommendations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blogs">Blogs</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link mr-0" href="#contact">Contact</a>
-                    </li>
-                   
-                </ul>
-            </div>
-        </div>          
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-0" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- End of page navibation -->
 
     <!-- Page Header -->
     <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <!-- <h6 class="subtitle">Hello, I'm</h6> -->
-                <h6 class="title">
-                    Abdulazeez
-                     Olalere
-                    </h6>
-                <p>Frontend Engineer</p>
+      <div class="container">
+        <div class="infos">
+          <!-- <h6 class="subtitle">Hello, I'm</h6> -->
+          <h6 class="title">
+            Hi, I am Azeez, <br class="d-none d-lg-block" />
 
-                <div class="buttons pt-3">
-                    <!-- <button class="btn btn-primary rounded">HIRE ME</button> -->
-                    <a download href="olalere_resume.pdf" class="btn btn-primary rounded-lg">DOWNLOAD CV</a>
-                </div>      
+            Frontend Engineer <br class="d-none d-lg-block" />
+            Based In Lagos, Nigeria.
+          </h6>
+          <p class="mt-4">
+            A tech-savvy frontend engineer, transforming ideas into interactive
+            reality. Crafting high-performance websites with optimized
+            experiences.
+          </p>
 
-                <div class="socials mt-4">
-                    <a class="social-item" target="_blank" href="https://www.linkedin.com/in/abdulazeez-olalere-5a1a53197/"><i class="ti-linkedin"></i></a>
-                    <a class="social-item" target="_blank" href="https://medium.com/@olalereazeez11"><i class='bx  bxl-medium'></i></a>
-                    <a class="social-item" target="_blank" href="https://github.com/layrayson"><i class="ti-github"></i></a>
-                    <a class="social-item" target="_blank" href="https://twitter.com/OlalereAbdulaz2"><i class="ti-twitter"></i></a>
-                </div>
-            </div>              
-            <!-- <div class="img-holder">
+          <!-- <div class="buttons pt-3"> -->
+          <!-- <button class="btn btn-primary rounded">HIRE ME</button> -->
+          <!-- <a download href="olalere_resume.pdf" class="btn btn-primary rounded-lg">DOWNLOAD CV</a>
+                </div>       -->
+
+          <div class="socials mt-4">
+            <a
+              class="social-item"
+              target="_blank"
+              href="https://www.linkedin.com/in/abdulazeez-olalere-5a1a53197/"
+              ><i class="ti-linkedin"></i
+            ></a>
+            <a
+              class="social-item"
+              target="_blank"
+              href="https://medium.com/@olalereazeez11"
+              ><i class="bx bxl-medium"></i
+            ></a>
+            <a
+              class="social-item"
+              target="_blank"
+              href="https://github.com/layrayson"
+              ><i class="ti-github"></i
+            ></a>
+            <a
+              class="social-item"
+              target="_blank"
+              href="https://twitter.com/OlalereAbdulaz2"
+              ><i class="ti-twitter"></i
+            ></a>
+          </div>
+        </div>
+        <!-- <div class="img-holder">
                 <img src="assets/imgs/man.svg" alt="">
             </div>       -->
-        </div>  
+      </div>
 
-        <!-- Header-widget -->
-        <!-- <div class="widget">
+      <!-- Header-widget -->
+      <!-- <div class="widget">
             <div class="widget-item">
                 <h2>124</h2>
                 <p>Happy Clients</p>
@@ -111,109 +185,127 @@
         </div> -->
     </header>
     <!-- End of Page Header -->
-    
+
     <!-- About section -->
     <section id="about" class="section mt-3">
-        <div class="container mt-5">
-            <div class="row text-center text-md-left">
-                <div class="col-md-3 ">
-                    <img src="assets/img/avatar.png" style="background-color: black;" alt="" class="img-thumbnail mb-4 p-0">
-                </div>
-                <div class="pl-md-4 col-md-9">
-                    <h6 class="title">Abdulazeez Olalere</h6>
-                    <p class="subtitle">Frontend Engineer</p>
-                    <p>
-                        Abdulazeez Olalere is a self-taught Software Engineer with 3 years of expertise. Holds a BSc in Electrical and Electronics Engineering. Committed to building user-friendly interfaces and delivering captivating digital experiences. Enthusiastic about staying at the forefront of web technologies. Dedicated to continuous learning and professional growth.
-                    </p>
-                    <a download href="olalere_resume.pdf" class="btn btn-primary rounded-lg mt-3">DOWNLOAD CV</a>                   
-                </div>
-            </div>
+      <div class="container mt-5">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3">
+            <img
+              src="assets/img/avatar-min.png"
+              style="background-color: black"
+              alt=""
+              class="img-thumbnail mb-4 p-0"
+            />
+          </div>
+          <div class="pl-md-4 col-md-9">
+            <h6 class="title">Abdulazeez Olalere</h6>
+            <p class="subtitle">Frontend Engineer</p>
+            <p>
+              Abdulazeez Olalere is a passionate Frontend Engineer with 3 years
+              of work expertise. Holds a BSc in Electrical and Electronics
+              Engineering. Committed to building user-friendly interfaces and
+              delivering captivating digital experiences. Enthusiastic about
+              staying at the forefront of web technologies. Dedicated to
+              continuous learning and professional growth.
+            </p>
+            <a
+              download
+              href="olalere_resume.pdf"
+              class="btn btn-primary rounded-lg mt-3"
+              >Download Resume &nbsp; <i class="bx bx-download"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Service section -->
     <section id="service" class="section">
-        <div class="container text-center">
-            <!-- <h6 class="subtitle">Service</h6> -->
-            <h6 class="section-title mb-4">Skills</h6>
-            <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border font-weight-lighter">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-react'></i>
+      <div class="container text-center">
+        <!-- <h6 class="subtitle">Service</h6> -->
+        <h6 class="section-title mb-4">Skills</h6>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div
+              class="custom-card card bg-transparent border font-weight-lighter"
+            >
+              <div class="card-body">
+                <i class="bx bx-lg bxl-react"></i>
 
-                            <h5>React Js</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-vuejs'></i>
-
-                            <h5>Vue Js</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-tailwind-css'></i>
-
-                            <h5>Tailwind CSS</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-bootstrap'></i>
-
-                            <h5>Bootstrap CSS</h5>
-                        </div>
-                    </div>
-                </div>  <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-graphql'></i>
-                            <h5>GraphQl</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-sass'></i>
-                            <h5>Sass</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-jquery'></i>
-                            <h5>jQuery</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-nodejs'></i>
-                            <h5>Node Js</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card bg-transparent border">
-                        <div class="card-body">
-                            <i class='bx bx-lg bxl-flutter'></i>
-                            <h5>Flutter</h5>
-                        </div>
-                    </div>
-                </div>
+                <h5>React Js</h5>
+              </div>
             </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-vuejs"></i>
+
+                <h5>Vue Js</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-tailwind-css"></i>
+
+                <h5>Tailwind CSS</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-bootstrap"></i>
+
+                <h5>Bootstrap CSS</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-graphql"></i>
+                <h5>GraphQl</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-sass"></i>
+                <h5>Sass</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-jquery"></i>
+                <h5>jQuery</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-nodejs"></i>
+                <h5>Node Js</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="custom-card card bg-transparent border">
+              <div class="card-body">
+                <i class="bx bx-lg bxl-flutter"></i>
+                <h5>Flutter</h5>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End of Sectoin -->
 
@@ -256,118 +348,195 @@
 
     <!-- Portfolio section -->
     <section id="portfolio" class="section">
-        <div class="container text-center">
-            <!-- <h6 class="subtitle">Portfolio</h6> -->
-            <h6 class="section-title mb-4">Projects</h6>
-            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+      <div class="container text-center">
+        <!-- <h6 class="subtitle">Portfolio</h6> -->
+        <h6 class="section-title mb-4">Projects</h6>
+        <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/img/joovlin_landing.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Joovlin Landing Page</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="https://joovlin.com"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/img/joovlin_dashboard.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Joovlin Dashboard</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="https://dashboard.joovlin.com"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>   
-                    <div class="img-wrapper">
-                        <img src="assets/img/joovlin_app_link.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Joovlin Mobile App(Flutter) Link</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="https://chat.joovlin.com/TrMV0dkgTzWwaUSpHAHoE"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                 
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="img-wrapper">
+              <img src="assets/img/tonic-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Tonic Frontend Test</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="https://tonic-fe-test.vercel.app/"
+                    ><i class="ti-link"></i
+                  ></a>
                 </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/img/joovlin_online.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Joovlin Online</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="https://www.joovlin.online/yellowmango"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/img/mobile_business_dashboard.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Joovlin Mobile Business Dashboard</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="https://app.joovlin.com"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="assets/img/komputerzone.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Komputerzone phone repair site</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="assets/img/myqtab_student.png" alt="">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>MyQtab</h5>
-                                <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
-                                <a target="_blank" href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>                              
-                        </div>
-                    </div>                  
-                </div>
+              </div>
             </div>
+            <div class="img-wrapper">
+              <img src="assets/img/stackbuld-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>StackBuld Frontend Test</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a
+                    target="_blank"
+                    href="https://olalere-stackbuld-frontend-assessment.vercel.app/"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img src="assets/img/thrillers-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Thrillers UI Challenge</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a
+                    target="_blank"
+                    href="https://thriller-travels-ui-challenge.vercel.app/"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-sm-4">
+            <div class="img-wrapper">
+              <img src="assets/img/joovlin_landing-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Joovlin Landing Page</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="https://joovlin.com"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img src="assets/img/joovlin_dashboard-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Joovlin Dashboard</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="https://dashboard.joovlin.com"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img src="assets/img/joovlin_app_link-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Joovlin Mobile App(Flutter) Link</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a
+                    target="_blank"
+                    href="https://chat.joovlin.com/TrMV0dkgTzWwaUSpHAHoE"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="img-wrapper">
+              <img src="assets/img/joovlin_online-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Joovlin Online</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a
+                    target="_blank"
+                    href="https://www.joovlin.online/yellowmango"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img src="assets/img/mobile_business_dashboard-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Joovlin Mobile Business Dashboard</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="https://app.joovlin.com"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="img-wrapper">
+              <img src="assets/img/afriglobal-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Afriglobal Insurance Website</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="http://afriglobal.com.ng/"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img src="assets/img/komputerzone-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>Komputerzone phone repair site</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="javascript:void(0)"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="img-wrapper">
+              <img src="assets/img/myqtab_student-min.png" alt="" />
+              <div class="overlay">
+                <div class="overlay-infos">
+                  <h5>MyQtab</h5>
+                  <!-- <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a> -->
+                  <a target="_blank" href="javascript:void(0)"
+                    ><i class="ti-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End of portfolio section -->
 
     <!-- Testmonial Section -->
     <section id="testmonial" class="section">
-        <div class="container text-center">
-            <!-- <h6 class="subtitle">Testmonial</h6> -->
-            <h6 class="section-title mb-4">Recommendations</h6>
-            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+      <div class="container text-center">
+        <!-- <h6 class="subtitle">Testmonial</h6> -->
+        <h6 class="section-title mb-4">Recommendations</h6>
+        <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <!-- <ol class="carousel-indicators">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <!-- <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol> -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card testmonial-card border">
-                            <div class="">
-                                <img src="assets/img/recommendation_from_mukesh.png" alt="">
-                        
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="carousel-item">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card testmonial-card border">
+                <div class="">
+                  <img
+                    src="assets/img/recommendation_from_mukesh-min.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- <div class="carousel-item">
                         <div class="card testmonial-card border">
                             <div class="card-body">
                                 <img src="assets/imgs/avatar-2.jpg" alt="">
@@ -387,34 +556,43 @@
                             </div>
                         </div>
                     </div> -->
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End of testmonial section -->
 
     <!-- Blog Section -->
     <section id="blog" class="section">
-        <div class="container text-center">
-            <!-- <h6 class="subtitle">My Blogs</h6> -->
-            <h6 class="section-title mb-4">Blogs</h6>
-            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+      <div class="container text-center">
+        <!-- <h6 class="subtitle">My Blogs</h6> -->
+        <h6 class="section-title mb-4">Blogs</h6>
+        <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-            <div class="row text-left">
-                <div class="col-md-4">
-                    <div class="card border mb-4" style="background-color: black;">
-                        <div class="card-body">
-                            <img src="assets/img/Resolve SSH Host key Verification failed error.jpeg" alt="" class="card-img mb-4 w-100">
-                            <h5 class="card-title">
-                                Complete Guide to Setting up Git SSH protocol on Mac OS (GitLab)
-                            </h5>
-                         
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p> -->
-                            <a target="_blank" href="https://medium.com/@olalereazeez11/complete-guide-to-setting-up-git-ssh-protocol-on-mac-os-gitlab-8ee89eda7d5c">Continue reading ...</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-md-4">
+        <div class="row text-left">
+          <div class="col-md-4">
+            <div class="card border mb-4" style="background-color: black">
+              <div class="card-body">
+                <img
+                  src="assets/img/Resolve SSH Host key Verification failed error-min.jpeg"
+                  alt=""
+                  class="card-img mb-4 w-100"
+                />
+                <h5 class="card-title">
+                  Complete Guide to Setting up Git SSH protocol on Mac OS
+                  (GitLab)
+                </h5>
+
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ad vel dolorum, iusto velit, minima? Voluptas nemo harum impedit nisi.</p> -->
+                <a
+                  target="_blank"
+                  href="https://medium.com/@olalereazeez11/complete-guide-to-setting-up-git-ssh-protocol-on-mac-os-gitlab-8ee89eda7d5c"
+                  >Continue reading ...</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
                     <div class="card border mb-4">
                         <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
                         <div class="card-body">
@@ -444,8 +622,8 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
         </div>
+      </div>
     </section>
 
     <!-- Hire me section -->
@@ -470,54 +648,67 @@
 
     <!-- Contact Section -->
     <section id="contact" class="position-relative section">
-        <div class="container text-center">
-            <!-- <h6 class="subtitle">Contact</h6> -->
-            <h6 class="section-title mb-4">Get In Touch</h6>
-            <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
+      <div class="container text-center">
+        <!-- <h6 class="subtitle">Contact</h6> -->
+        <h6 class="section-title mb-4">Get In Touch</h6>
+        <!-- <p class="mb-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In alias dignissimos. <br> rerum commodi corrupti, temporibus non quam.</p> -->
 
-            <div class="contact text-left border">
-                <div class="form">
-                    <h6 class="subtitle">Available 24/7</h6>
-                    <h6 class="section-title mb-0">Send a message</h6>
-                    <form>
-                        <!-- <div class="form-group">
+        <div class="contact text-left border">
+          <div class="form">
+            <h6 class="subtitle">Available 24/7</h6>
+            <h6 class="section-title mb-0">Send a message</h6>
+            <form>
+              <!-- <div class="form-group">
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
                         </div> -->
-                        <div class="form-group">
-                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" style="background-color: black;" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block rounded-lg w-lg">Send Message</button>
-                    </form>
-                </div>
-                <div class="contact-infos">
-                    <div class="item">
-                        <i class="ti-location-pin"></i>
-                        <div class="">
-                            <h5>Location</h5>
-                            <p>Lagos, Nigeria</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-mobile"></i>
-                        <div>
-                            <h5>Phone Number</h5>
-                            <p>(+234) 70-803-70133</p>
-                        </div>                          
-                    </div>
-                    <div class="item">
-                        <i class="ti-email"></i>
-                        <div class="mb-0">
-                            <h5>Email Address</h5>
-                            <p>olalereazeez11@gmail.com</p>
-                        </div>
-                    </div>
-                </div>                  
+              <div class="form-group">
+                <textarea
+                  name="contact-message"
+                  id=""
+                  cols="30"
+                  rows="5"
+                  class="form-control"
+                  style="background-color: black"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-block rounded-lg w-lg"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact-infos">
+            <div class="item">
+              <i class="ti-location-pin"></i>
+              <div class="">
+                <h5>Location</h5>
+                <p>Lagos, Nigeria</p>
+              </div>
             </div>
-        </div>  
-        <!-- <div id="map">
+            <div class="item">
+              <i class="ti-mobile"></i>
+              <div>
+                <h5>Phone Number</h5>
+                <p>(+234) 70-803-70133</p>
+              </div>
+            </div>
+            <div class="item">
+              <i class="ti-email"></i>
+              <div class="mb-0">
+                <h5>Email Address</h5>
+                <p>olalereazeez11@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="map">
             <iframe src="https://snazzymaps.com/embed/61257"></iframe>
         </div>       -->
     </section>
@@ -525,33 +716,57 @@
 
     <!-- Page Footer -->
     <footer class="page-footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; </p>
-                </div>
-                <div class="col-sm-6">
-                    <div class="socials">
-                        <a class="social-item" target="_blank" href="https://www.linkedin.com/in/abdulazeez-olalere-5a1a53197/"><i class="ti-linkedin"></i></a>
-                    <a class="social-item" target="_blank" href="https://medium.com/@olalereazeez11"><i class='bx  bxl-medium'></i></a>
-                    <a class="social-item" target="_blank" href="https://github.com/layrayson"><i class="ti-github"></i></a>
-                    <a class="social-item" target="_blank" href="https://twitter.com/OlalereAbdulaz2"><i class="ti-twitter"></i></a>
-              
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <p>
+              Copyright
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              &copy;
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <div class="socials">
+              <a
+                class="social-item"
+                target="_blank"
+                href="https://www.linkedin.com/in/abdulazeez-olalere-5a1a53197/"
+                ><i class="ti-linkedin"></i
+              ></a>
+              <a
+                class="social-item"
+                target="_blank"
+                href="https://medium.com/@olalereazeez11"
+                ><i class="bx bxl-medium"></i
+              ></a>
+              <a
+                class="social-item"
+                target="_blank"
+                href="https://github.com/layrayson"
+                ><i class="ti-github"></i
+              ></a>
+              <a
+                class="social-item"
+                target="_blank"
+                href="https://twitter.com/OlalereAbdulaz2"
+                ><i class="ti-twitter"></i
+              ></a>
             </div>
+          </div>
         </div>
-    </footer> 
+      </div>
+    </footer>
     <!-- End of page footer -->
-	
-	<!-- core  -->
+
+    <!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
     <!-- bootstrap 3 affix -->
-	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
-
-</body>
+  </body>
 </html>

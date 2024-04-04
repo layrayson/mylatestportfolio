@@ -49,7 +49,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family:'Figtree', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -61,8 +61,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-family: 'Figtree', sans-serif;
+   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: white;
@@ -556,14 +556,19 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  
   margin-right: auto;
   margin-left: auto;
+}
+.container .infos{
+  padding-top: 120px;
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -575,6 +580,9 @@ pre code {
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .container .infos{
+    padding-top: 0px;
   }
 }
 
@@ -10973,8 +10981,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320)));
-  background: linear-gradient(
+  /* font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1200 - 320))); */
+  /* background: linear-gradient(
     99.76deg,
     #ff7a57 3.62%,
     #ffffff 26.06%,
@@ -10983,12 +10991,12 @@ h1, h2, h3, h4, h5, h6 {
   );
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 @media (min-width: 992px) {
   .title {
-    font-size: 28px;
+    font-size: 24px;
   }
 }
 
@@ -11033,8 +11041,8 @@ pre {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #ff7a57;
-  color: #ff7a57;
+  color: #fff;
+  border: 2px solid #fff;
   text-align: center;
   line-height: 40px;
   -webkit-transition: all 0.3s;
@@ -11043,6 +11051,7 @@ pre {
 }
 
 .socials .social-item:hover {
+  border-color: #ff7a57;
   background: #ff7a57;
   color: #fff;
 }
@@ -11321,6 +11330,7 @@ pre {
   margin-bottom: 4px;
 }
 
+
 @media (max-width: 991.98px) {
   .contact {
     -webkit-box-orient: vertical;
@@ -11487,6 +11497,8 @@ pre {
 
 .header .container .infos {
   /* margin-top: 120px; */
+  max-width: 800px;
+  margin: auto;
 }
 
 .header .container .infos .subtitle {
@@ -11494,12 +11506,19 @@ pre {
   font-size: 25px;
   font-weight: 500;
 }
-
-.header .container .infos .title {
-  margin-bottom: 0px;
-  font-size: 74px;
-  font-weight: bold;
+.title {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 50px;
 }
+@media (min-width:542px) {
+  .header .container .infos .title {
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+}
+
 
 .header .container .infos p {
   margin-top: -5px;
@@ -11548,6 +11567,7 @@ pre {
             justify-content: center;
   }
   .header .container .infos {
+  
     margin-top: 0;
   }
   .header .container .img-holder {
